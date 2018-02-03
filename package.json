@@ -8,8 +8,6 @@
     "build": "webpack",
     "start": "webpack-dev-server --config webpack.config.production.js"
   },
-  "homepage": "https://github.com/temilaj/react-webpack-starter",
-  "repository": "https://github.com/temilaj/react-webpack-starter.git",
   "keywords": [
     "react",
     "webpack",
@@ -17,7 +15,7 @@
     "react starter",
     "react boilerplate"
   ],
-  "author": "Temi Lajumoke <temi@temilajumoke.com> (http://temilajumoke.com)",
+  "author": "Vooit",
   "license": "MIT",
   "dependencies": {
     "babel-preset-react": "^6.24.1",

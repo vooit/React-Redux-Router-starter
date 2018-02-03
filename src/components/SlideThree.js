@@ -5,13 +5,14 @@ import React, {Component} from 'react';
 
 const SlideThree = (props) => {
     const background = {
-        backgroundImage: 'url(/img/fwt-tero-repo.jpg)',
+        backgroundImage: 'url(src/img/slide2.jpg)',
         backgroundSize: 'cover',
-        backgroundPosition: 'center'
+        backgroundPosition: 'center',
+        height: '100vh'
     };
 
     return (
-        <div className="singleSlide">
+        <div className="singleSlide slide" style={background}>
 
         </div>
     )

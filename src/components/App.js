@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Slider from './Slider'
+
 
 export default class App extends Component {
   constructor(props) {
@@ -9,6 +11,7 @@ export default class App extends Component {
     return (
       <div>
         <h1>yuhuuu!!!</h1>
+        <Slider/>
       </div>
     )
   }
